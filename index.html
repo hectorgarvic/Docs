@@ -59,6 +59,13 @@
   }
 
   * { box-sizing: border-box; }
+  /* themed, thin scrollbars (replaces the chunky default OS bar) */
+  html { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+  *::-webkit-scrollbar { width: 10px; height: 10px; }
+  *::-webkit-scrollbar-track { background: transparent; }
+  *::-webkit-scrollbar-thumb { background: var(--line); border-radius: 8px; border: 2px solid var(--paper); background-clip: padding-box; }
+  *::-webkit-scrollbar-thumb:hover { background: var(--faint); border-color: var(--paper); background-clip: padding-box; }
+  *::-webkit-scrollbar-corner { background: transparent; }
   html { scroll-behavior: smooth; }
   @media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } *{ transition:none!important; animation:none!important; } }
   body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.7 var(--sans); -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
