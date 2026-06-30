@@ -6,7 +6,7 @@ Personal docs & guides.
 
 A no-bullshit dropshipping guide with Spain-specific tax detail, a live P&L calculator, tool setup and resources.
 
-- **Read online (GitHub Pages):** https://hgarciaaltra.github.io/Docs/
+- **Read online (GitHub Pages):** https://hectorgarvic.github.io/Docs/
 - **Source:** [`dropshipping-guide.md`](dropshipping-guide.md)
 - **P&L spreadsheet:** [`dropshipping-pl-template.csv`](dropshipping-pl-template.csv)
 
