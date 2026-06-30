@@ -4,11 +4,16 @@ Personal docs & guides.
 
 ## 📦 Dropshipping Starter Guide
 
-A no-bullshit dropshipping guide with Spain-specific tax detail, a live P&L calculator, tool setup and resources.
+A no-bullshit dropshipping operating manual with Spain-specific tax detail, a live unit-economics console, product validation, and tools. **Bilingual: English / Castellano.**
 
 - **Read online (GitHub Pages):** https://hectorgarvic.github.io/Docs/
-- **Source:** [`dropshipping-guide.md`](dropshipping-guide.md)
-- **P&L spreadsheet:** [`dropshipping-pl-template.csv`](dropshipping-pl-template.csv)
-- **Build your own AI agent:** [`ai-agent-setup.md`](ai-agent-setup.md)
 
-The site (`index.html`) renders the Markdown with a clickable table of contents, dark/light mode, search, and an interactive unit-economics calculator. Edit `dropshipping-guide.md` to update the content — the site re-renders it automatically.
+### Documents
+| Doc | English | Español |
+|---|---|---|
+| Main guide | [`dropshipping-guide.md`](dropshipping-guide.md) | [`dropshipping-guide.es.md`](dropshipping-guide.es.md) |
+| Product validation checklist | [`product-validation-checklist.md`](product-validation-checklist.md) | [`product-validation-checklist.es.md`](product-validation-checklist.es.md) |
+| Build your own AI agent | [`ai-agent-setup.md`](ai-agent-setup.md) | [`ai-agent-setup.es.md`](ai-agent-setup.es.md) |
+| P&L spreadsheet | [`dropshipping-pl-template.csv`](dropshipping-pl-template.csv) | — |
+
+The site (`index.html`) renders the Markdown with doc tabs, an EN/ES language toggle, dark/light mode, a searchable table of contents, scroll progress, and an interactive unit-economics calculator. `marked.min.js` is vendored locally (no CDN). Edit any `.md` to update content — the site re-renders it automatically.
