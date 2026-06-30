@@ -81,8 +81,9 @@ ESTILO
 2. Abre la pestaña **Configurar** (sáltate el creador por chat).
 3. **Nombre:** p. ej. «Dropship Coach (ES)».
 4. **Instrucciones:** pega el **System Prompt** de arriba.
-5. **Knowledge:** haz clic en **Subir archivos** → sube `dropshipping-guide.md` (y el
-   `dropshipping-pl-template.csv` si quieres que razone sobre tu hoja de cálculo).
+5. **Knowledge:** haz clic en **Subir archivos** → sube `dropshipping-guide.md` **y
+   `product-validation-checklist.md`** (y `dropshipping-pl-template.csv` si quieres que
+   razone sobre tu hoja de cálculo). El checklist hace que puntúe bien las ideas de producto.
 6. **Capacidades:** activa **Navegación web** (para investigación de productos/anuncios
    en tiempo real) e **Intérprete de código** (para los cálculos de la cuenta de
    resultados con tus números).

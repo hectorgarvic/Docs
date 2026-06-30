@@ -68,8 +68,9 @@ STYLE
 2. Open the **Configure** tab (skip the chat builder).
 3. **Name:** e.g. "Dropship Coach (ES)".
 4. **Instructions:** paste the **System Prompt** above.
-5. **Knowledge:** click **Upload files** → upload `dropshipping-guide.md` (and the
-   `dropshipping-pl-template.csv` if you want it to reason over your sheet).
+5. **Knowledge:** click **Upload files** → upload `dropshipping-guide.md` **and
+   `product-validation-checklist.md`** (and `dropshipping-pl-template.csv` if you want
+   it to reason over your sheet). The checklist makes it score product ideas properly.
 6. **Capabilities:** enable **Web Browsing** (for live product/ad research) and
    **Code Interpreter** (for P&L math on your numbers).
 7. **Save** → "Only me" (or share a link).
